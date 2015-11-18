@@ -1,0 +1,16 @@
+<?
+/*
+$server   = "localhost";
+$dbpassword = "acer";
+$dbusername = "root";
+$database = "admin_track";
+*/
+
+$server   = "www.bintangtrack.com";
+$dbpassword = "B1nt@ng";
+$dbusername = "admin_root";
+$database = "admin_bintang";
+
+$koneksi = mysql_connect($server,$dbusername,$dbpassword) or die("Koneksi gagal");
+mysql_select_db($database,$koneksi) or die ("Database tidak ditemukan");
+?>
